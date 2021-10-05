@@ -1,0 +1,46 @@
+.row {
+  background-color: rgba(255, 255, 255, 0.05);
+  margin-top: 20px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 50px 50px 50px 1fr;
+}
+
+.QnState {
+  text-align: center;
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-top: 6px;
+}
+
+.QnStateSpan {
+  font-size: 0.7rem;
+  display: block;
+  font-weight: 300;
+  margin-top: 4px;
+}
+
+.QuestionArea {
+  padding: 0 20px;
+}
+
+.QuestionLink {
+  text-decoration: none;
+  color: #3ca4ff;
+  font-size: 1.1rem;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.name_and_date {
+  /* display: inline-block; */
+  color: #aaa;
+  font-size: 0.8rem;
+  float: right;
+  padding: 10px 0;
+}
+
+.UserLink {
+  color: #3ca4ff;
+}
